@@ -12,5 +12,7 @@ public class WindowTests extends BaseTests {
         var buttonPage = homePage.clickDynamicLoading().rightClickOnExample2Link();
         getWindowManager().switchToNewTab();
         assertTrue(buttonPage.isStartButtonDisplayed(), "Start button is not displayed");
+        
+        //Hi Where you write this function?   isStartButtonDisplayed() 
     }
 }
